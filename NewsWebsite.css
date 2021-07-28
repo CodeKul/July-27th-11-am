@@ -1,0 +1,32 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* list down inline and block level elements 
+go through css properties */
+
+header{
+    text-align: center;
+    font-size: 25px;
+}
+
+#india-today{
+    color: red;
+    width: 100px;
+    display: inline-block;
+}
+
+li{
+    display: inline;
+   margin: 8px;
+    color: white;
+}
+
+nav{
+    background-color: red;
+}
+
+ul{
+    padding: 12px;
+}
