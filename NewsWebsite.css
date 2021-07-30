@@ -6,10 +6,24 @@
 /* list down inline and block level elements 
 go through css properties */
 
+
+/* inline > internal > external */
+
 header{
     text-align: center;
     font-size: 25px;
+    background-color: black;
+    color: white;
+    
 }
+
+#bs{
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    margin: 20px;
+}
+
 
 #india-today{
     color: red;
@@ -24,6 +38,8 @@ li{
 }
 
 nav{
+   
+    background-color: blue;
     background-color: red;
 }
 
