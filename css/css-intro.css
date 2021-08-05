@@ -1,0 +1,35 @@
+
+/* Descendent Selector
+
+Child Selector */
+
+/* https://developer.chrome.com/docs/devtools/css/overrides/ */
+
+/* Position */
+
+
+.container{
+    height: 400px;
+    width: 500px;
+    background-color: blue;
+}
+
+section > h2{
+    color: crimson;
+}
+
+
+.sports h3 {
+    color: darkblue;
+}
+
+
+/* Sibling Selector - General Sibling Selector */
+
+h2 + p {
+    color: darkmagenta;
+}
+
+p:nth-child(3){
+color: forestgreen;
+}
