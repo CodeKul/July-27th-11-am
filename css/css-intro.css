@@ -30,6 +30,74 @@ h2 + p {
     color: darkmagenta;
 }
 
+
+/* pseudo class selector */
 p:nth-child(3){
 color: forestgreen;
+}
+
+
+/* pseudo element selector */
+p::first-letter{
+    color: red;
+    font-size:xx-large;
+}
+
+p::first-line{
+    color: darkgreen;
+    background-color: yellow;
+}
+
+
+h2::after{
+    content: "";
+    border: 2px solid black;
+
+}
+
+/* Attribute selector */
+/* [href]{
+    color: blue;
+    background-color:cyan;
+} */
+
+
+/* a[href="http://www.codekul.com"]{
+    color: blue;
+    background-color:cyan;
+} */
+
+/* a[href^="https"]{
+    color: rgb(21, 255, 0);
+    background-color:cyan;
+} */
+
+
+/* a[href$="gov.in"]{
+    color: rgb(255, 0, 234);
+    background-color:cyan;
+} */
+
+
+a[href*="gov.in"]{
+    color: rgb(255, 0, 234);
+    background-color:cyan;
+}
+
+[class="Sports" i] {
+    background-color:tomato;
+    color: aqua;
+}
+
+[class~="fab"]{
+
+    background-color:darkgoldenrod;
+
+}
+
+
+
+p[title ="sports-news-heading"] {
+    color:yellow;
+    background-color:red;
 }
