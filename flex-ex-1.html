@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- check what is the difference between flex and flexbox -->
+
+    <style>
+        img{
+            height: 50px;
+            width: 50px;
+            margin-bottom: 10px;
+        }
+
+        /* .one img{
+            height: 400px;
+            width: 400px;
+        } */
+
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+
+        .column-2, .column-3{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 8px;
+            margin-right: 10px;
+        }
+
+
+        .column-1 img{
+            height: 80px;
+            width: 80px;
+            margin-right: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 1. create container 
+    2. create 5 boxes inside container  -->
+
+
+    <!-- <div class="container">
+
+        <div class="box one">
+            <img src="./images/5.jpg"/>
+        </div>
+        <div class="box two">
+             <img src="./images/5.jpg"/>
+        </div>
+        <div class="box three">
+             <img src="./images/5.jpg"/>
+        </div>
+        <div class="box four">
+             <img src="./images/5.jpg"/>
+        </div>
+        <div class="box five">
+             <img src="./images/5.jpg"/>
+        </div>
+
+    </div> -->
+
+
+    <div class="container">
+
+        <div class="column-1">
+            <img src="./images/5.jpg"/>
+        </div>
+
+        <div class="column-2">
+            <img src="./images/5.jpg"/>
+            <img src="./images/5.jpg"/>
+        </div>
+
+        <div class="column-3">
+            <img src="./images/5.jpg"/>
+            <img src="./images/5.jpg"/>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="container">
+
+        <div class="column-1">
+            <img src="./images/5.jpg"/>
+        </div>
+
+        <div class="column-2">
+            <img src="./images/5.jpg"/>
+            <img src="./images/5.jpg"/>
+        </div>
+
+        <div class="column-3">
+            <img src="./images/5.jpg"/>
+            <img src="./images/5.jpg"/>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

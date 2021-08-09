@@ -73,10 +73,10 @@ h2::after{
 } */
 
 
-/* a[href$="gov.in"]{
+a[href$="gov.in"]{
     color: rgb(255, 0, 234);
     background-color:cyan;
-} */
+}
 
 
 a[href*="gov.in"]{

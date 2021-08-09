@@ -19,7 +19,31 @@
 
         .container{
             display: flex;
-            flex-direction:column-reverse;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            border: 2px solid blue;
+
+            height: 1200px;
+            /* width: 900px; */
+
+
+            /* align-items - to align items in vertical direction */
+            align-items: center;
+
+/* 
+            justify-content = to align items in horizontal direction */
+            /* justify-content: center; */
+
+            /* read about what is difference between align-items and align-content 
+            justify-content and justify-items
+            */
+            
+        }
+
+
+        #two{
+            /* align-self: flex-start; */
         }
     </style>
 </head>
@@ -28,7 +52,7 @@
 
     <div class="container">
         <div class="flex-items">One</div>
-        <div class="flex-items">Two</div>
+        <div id="two" class="flex-items">Two</div>
         <div class="flex-items">Three</div>
         <div class="flex-items">Four</div>
     </div>
