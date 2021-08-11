@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- https://css-tricks.com/snippets/css/complete-guide-grid/ -->
+
+    <style>
+        .container{
+            display: grid;
+            /* grid-template-columns: 70% 200px 1fr 1fr; */
+            grid-template-columns: 500px repeat(4, 2fr);
+            grid-template-rows: 200px 200px;
+            grid-gap: 20px;
+            /* justify-content:center; */
+            /* align-items: center; */
+
+            
+        }
+
+        .grid-items{
+            border: 1px solid black;
+            background-color:blue;
+        }
+
+        .one{
+            grid-row-start: 1;
+            grid-row-end:3
+
+            /* grid-column-start: 1;
+            grid-column-end:3 */
+        }
+
+        img{
+            width: 100%;
+        }
+        .three{
+            background-color:yellow;
+        }
+
+        .two{
+            background-color:tomato;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="grid-items one">
+             <!-- <img src="./images/blog-writing.jpg"/> -->
+        </div>
+
+        <div class="grid-items two">
+             <!--  <img src="./images/blog-writing.jpg"/> --> 
+        </div>
+
+        <div class="grid-items three">
+              <!-- <img src="./images/blog-writing.jpg"/> -->
+        </div>
+
+        <div class="grid-items four">
+              <!-- <img src="./images/blog-writing.jpg"/> -->
+        </div>
+
+        <div class="grid-items five">
+              <!-- <img src="./images/blog-writing.jpg"/> -->
+        </div>
+
+        <!-- <div class="grid-items">
+             <!-- <img src="./images/blog-writing.jpg"/> -->
+        </div> -->
+
+       
+
+
+
+    </div>
+</body>
+</html>
